@@ -3,10 +3,15 @@
   "version": "0.0.0",
   "private": true,
   "dependencies": {
+    "@testing-library/react": "^13.4.0",
     "@types/react": "^18.0.8",
     "@types/react-dom": "^18.0.2",
+    "@xstate/fsm": "^2.0.0",
+    "@xstate/react": "^3.0.1",
+    "@xstate/test": "^0.5.1",
     "react": "^18.1.0",
-    "react-dom": "^18.1.0"
+    "react-dom": "^18.1.0",
+    "xstate": "^4.33.6"
   },
   "scripts": {
     "start": "react-scripts start",
