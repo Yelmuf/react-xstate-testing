@@ -1,4 +1,4 @@
-import React = require('react');
+import React from 'react';
 import { CreateMachineBasedExample } from './CreateMachineBasedExample';
 import { ModelBasedMachineExample } from './ModelBasedMachineExample';
 
@@ -24,7 +24,7 @@ const Bordered = ({
   <section
     style={{
       border: '1px solid gray',
-      roderRadius: '12px',
+      borderRadius: '12px',
       padding: '12px',
       position: 'relative',
       margin: '14px 0',
@@ -33,7 +33,7 @@ const Bordered = ({
     <h3
       style={{
         backgroundColor: 'white',
-        paddingX: '12px',
+        padding: '0 12px',
         margin: '0',
         position: 'absolute',
         translate: '0 -100%',
